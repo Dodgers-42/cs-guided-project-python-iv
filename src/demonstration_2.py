@@ -18,4 +18,13 @@ when we know the value we are counting will always be non-negative."
 """
 def hamming_weight(n):
     # Your code here
+    print(bin(n))
 
+    return (bin(n).count('1'))
+
+print(hamming_weight(1234))
+
+#hamming_weight (0b11111111111111111111111111111011)
+
+print(hex(0b11101001))
+print(int(0xe9))
